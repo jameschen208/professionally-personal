@@ -16,6 +16,12 @@ nav{
 	background-color: white;
 }
 
+header{
+	font-size: 100px;
+	text-align: center;
+	margin-top: 25px;
+}
+
 ul#listheaders{
     list-style:none;
     margin:0;
@@ -72,12 +78,6 @@ a:visited{
 	background-color: white;
 }
 
-header{
-	font-size: 100px;
-	text-align: center;
-	margin-top: 25px;
-}
-
 #title{
 	font-size: 36px;
 	text-align: center;
@@ -123,20 +123,16 @@ header{
 
 /********* Photos *********/
 
-#pictures{
+.pictures{
     margin: 5px;
     padding: 5px;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
+    width: 300px;
 }	
 
-div#img{
-    margin:auto;
-    width: 90%;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+#img{
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
 }
 
 /********* Ponderings *********/
